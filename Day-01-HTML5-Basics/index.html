@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A beginner-friendly personal developer profile built with semantic HTML and CSS."
+    />
+    <title>My Developer Journey</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home" aria-label="Homepage">Day 1<span>.</span></a>
+      <nav aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Java Full-Stack Developer in progress</p>
+          <h1 id="hero-title">Building skills.<br /><em>One day at a time.</em></h1>
+          <p class="intro">
+            Hi, I'm <strong>Punith T A</strong>. I am documenting my journey from HTML fundamentals to Java and Spring Boot.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#goals">See my roadmap <span aria-hidden="true">↓</span></a>
+            <a class="button button-text" href="#about">Learn more <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+        <aside class="progress-card" aria-label="Current learning progress">
+          <p class="card-label">Currently learning</p>
+          <h2>HTML5 Basics</h2>
+          <div class="progress-meta"><span>Day 01</span><span>1 / 60</span></div>
+          <div class="progress-track" role="progressbar" aria-label="Roadmap progress" aria-valuemin="0" aria-valuemax="60" aria-valuenow="1">
+            <span></span>
+          </div>
+          <p class="card-note">Small, consistent progress creates real momentum.</p>
+        </aside>
+      </section>
+
+      <section class="about section" id="about" aria-labelledby="about-title">
+        <p class="section-number">01 / ABOUT</p>
+        <div>
+          <h2 id="about-title">Learning in public, building with purpose.</h2>
+          <p>
+            This repository is my hands-on record of learning full-stack development. Every project focuses on writing clearer code, solving practical problems, and improving one concept at a time.
+          </p>
+        </div>
+      </section>
+
+      <section class="goals section" id="goals" aria-labelledby="goals-title">
+        <div class="section-heading">
+          <p class="section-number">02 / ROADMAP</p>
+          <h2 id="goals-title">What I’m working toward</h2>
+        </div>
+        <div class="goal-grid">
+          <article class="goal-card">
+            <span>01</span>
+            <h3>Frontend foundations</h3>
+            <p>Build accessible, responsive interfaces with HTML, CSS, and JavaScript.</p>
+          </article>
+          <article class="goal-card">
+            <span>02</span>
+            <h3>Modern React</h3>
+            <p>Create component-driven applications with state, routes, and API data.</p>
+          </article>
+          <article class="goal-card">
+            <span>03</span>
+            <h3>Java backend</h3>
+            <p>Develop reliable REST APIs using Java, MySQL, and Spring Boot.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="quote" aria-label="Personal learning principle">
+        <p>“The best way to learn is to build.”</p>
+      </section>
+    </main>
+
+    <footer id="contact">
+      <p>© 2026 Punith T A</p>
+      <a href="mailto:punithpuni1624@gmail.com">Email</a>
+      <a href="https://github.com/ounithta" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </footer>
+  </body>
+</html>
