@@ -1,0 +1,70 @@
+body {
+  max-width: 850px;
+  margin: 0 auto;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #1f2937;
+  background: #f8fafc;
+}
+
+header,
+footer {
+  text-align: center;
+  padding: 24px;
+  color: white;
+  background: #166534;
+  border-radius: 8px;
+}
+
+section {
+  margin-top: 24px;
+  padding: 24px;
+  background: white;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+input,
+select,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  width: auto;
+}
+
+button {
+  padding: 12px 20px;
+  color: white;
+  background: #166534;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 12px;
+  text-align: left;
+  border: 1px solid #cbd5e1;
+}
+
+th {
+  color: white;
+  background: #166534;
+}
