@@ -20,8 +20,8 @@ I am learning by building projects daily and documenting each step here.
 | Day | Topic | Project | Status |
 | --- | --- | --- | --- |
 | 01 | HTML5 Basics | Personal Developer Journey Page | ✅ Completed |
-| 02 | HTML Forms and Tables | Coming soon | ⏳ |
-| 03 | CSS Basics | Coming soon | ⏳ |
+| 02 | HTML Forms and Tables | Coming soon | ✅ Completed |
+| 03 | CSS Basics | Coming soon | ✅ Completed |
 
 ## Repository Structure
 
