@@ -1,0 +1,126 @@
+/* CSS variables: reusable colors */
+:root {
+  --dark-green: #14532d;
+  --green: #16a34a;
+  --light-green: #dcfce7;
+  --text: #1f2937;
+  --muted-text: #64748b;
+  --white: #ffffff;
+  --page-background: #f0fdf4;
+}
+
+/* Universal selector */
+* {
+  box-sizing: border-box;
+}
+
+/* Element selector */
+body {
+  min-height: 100vh;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  display: grid;
+  place-items: center;
+  padding: 2rem;
+  color: var(--text);
+  background: var(--page-background);
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 100%;
+  min-height: calc(100vh - 4rem);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Class selector */
+.profile-card {
+  width: min(100%, 480px);
+  padding: 2rem;
+  text-align: center;
+  background: var(--white);
+  border: 1px solid #bbf7d0;
+  border-radius: 16px;
+  box-shadow: 0 12px 30px rgba(20, 83, 45, 0.12);
+}
+
+/* Class selector */
+.avatar {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1rem;
+  display: grid;
+  place-items: center;
+  color: var(--white);
+  background: var(--dark-green);
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.badge {
+  display: inline-block;
+  margin: 0;
+  padding: 0.4rem 0.7rem;
+  color: var(--dark-green);
+  background: var(--light-green);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+h1 {
+  margin: 1rem 0 0.3rem;
+  font-size: 2rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+}
+
+.role {
+  margin: 0;
+  color: var(--green);
+  font-weight: bold;
+}
+
+.about {
+  margin: 1.5rem 0;
+  color: var(--muted-text);
+  line-height: 1.7;
+}
+
+/* Descendant selector */
+.skills li {
+  display: inline-block;
+  margin: 0.25rem;
+  padding: 0.5rem 0.8rem;
+  list-style: none;
+  background: #f1f5f9;
+  border-radius: 6px;
+}
+
+.skills {
+  padding: 0;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.2rem;
+  color: var(--white);
+  background: var(--dark-green);
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Pseudo-class selector */
+.button:hover {
+  background: var(--green);
+  transform: translateY(-2px);
+}
