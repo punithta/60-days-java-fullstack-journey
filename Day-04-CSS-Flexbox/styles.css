@@ -1,0 +1,265 @@
+:root {
+  --dark: #17211e;
+  --green: #176b4d;
+  --light-green: #e5f4ea;
+  --cream: #f7f8f4;
+  --muted: #64748b;
+  --line: #dbe4dd;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--dark);
+  background: var(--cream);
+  font-family: Arial, sans-serif;
+}
+
+.site-header,
+main,
+footer {
+  width: min(1100px, 92%);
+  margin: auto;
+}
+
+/* Flex container: logo and navigation are in one row */
+.site-header {
+  min-height: 76px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: var(--dark);
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo span {
+  color: var(--green);
+}
+
+nav {
+  display: flex;
+  gap: 1.2rem;
+}
+
+nav a {
+  color: var(--dark);
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: var(--green);
+}
+
+/* Flex container: text and progress card are side by side */
+.hero {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.hero-content {
+  flex: 1;
+}
+
+.eyebrow {
+  margin: 0 0 0.8rem;
+  color: var(--green);
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.05;
+}
+
+.hero-text {
+  max-width: 520px;
+  color: var(--muted);
+  line-height: 1.7;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.8rem 1.2rem;
+  color: var(--white);
+  background: var(--green);
+  border-radius: 6px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: var(--dark);
+}
+
+.progress-card {
+  width: 300px;
+  padding: 2rem;
+  background: var(--light-green);
+  border-radius: 12px;
+}
+
+.progress-card p {
+  margin-top: 0;
+  color: var(--green);
+  font-size: 0.85rem;
+  font-weight: bold;
+}
+
+.progress-card strong {
+  font-size: 2.4rem;
+}
+
+.progress-card strong span {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+.progress-bar {
+  height: 9px;
+  margin: 1.4rem 0 0.7rem;
+  overflow: hidden;
+  background: #bbd9c5;
+  border-radius: 99px;
+}
+
+.progress-bar span {
+  display: block;
+  width: 7%;
+  height: 100%;
+  background: var(--green);
+}
+
+.progress-section {
+  padding: 4rem 0;
+  border-top: 1px solid var(--line);
+}
+
+/* Flex container: title left, description right */
+.section-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+.section-heading p:last-child {
+  max-width: 280px;
+  margin: 0;
+  color: var(--muted);
+}
+
+/* Flex column: cards appear one below another */
+.roadmap-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+/* Flex row: day, text, and status stay aligned */
+.roadmap-card {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1.2rem;
+  background: var(--white);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.day {
+  min-width: 65px;
+  color: var(--green);
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.roadmap-card div {
+  flex-grow: 1;
+}
+
+.roadmap-card h3,
+.roadmap-card p {
+  margin: 0;
+}
+
+.roadmap-card p {
+  margin-top: 0.3rem;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.status {
+  padding: 0.4rem 0.7rem;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+.completed .status {
+  color: #166534;
+  background: #dcfce7;
+}
+
+.active .status {
+  color: #92400e;
+  background: #fef3c7;
+}
+
+footer {
+  padding: 2rem 0;
+  color: var(--muted);
+  border-top: 1px solid var(--line);
+  font-size: 0.85rem;
+}
+
+/* On mobile, Flexbox changes from row to column */
+@media (max-width: 700px) {
+  .hero,
+  .section-heading,
+  .roadmap-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .hero {
+    padding: 4rem 0;
+    gap: 2rem;
+  }
+
+  .progress-card {
+    width: 100%;
+  }
+
+  .status {
+    align-self: flex-start;
+  }
+}
