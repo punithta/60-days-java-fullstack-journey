@@ -20,9 +20,10 @@ I am learning by building projects daily and documenting each step here.
 | Day | Topic | Project | Status |
 | --- | --- | --- | --- |
 | 01 | HTML5 Basics | Personal Developer Journey Page | ✅ Completed |
-| 02 | HTML Forms and Tables | Coming soon | ⏳ |
-| 03 | CSS Basics | Coming soon | ⏳ |
-
+| 02 | HTML Forms and Tables| Student Registration Form | ✅ Completed |
+| 03 | CSS Basics | Developer Profile Card | ✅ Completed |
+| 04 | CSS Flexbox | Developer Roadmap Dashboard | ✅ Completed |
+| 05 | CSS Grid | Learning Dashboard | ✅ Completed |
 ## Repository Structure
 
 Each day has its own folder containing code and notes.
