@@ -24,6 +24,8 @@ I am learning by building projects daily and documenting each step here.
 | 03 | CSS Basics | Developer Profile Card | ✅ Completed |
 | 04 | CSS Flexbox | Developer Roadmap Dashboard | ✅ Completed |
 | 05 | CSS Grid | Learning Dashboard | ✅ Completed |
+| 06 | Responsive Design | Responsive Developer Portfolio | ✅ Completed |
+
 ## Repository Structure
 
 Each day has its own folder containing code and notes.
