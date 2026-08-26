@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.hero-section {
+  padding: 6rem 0;
+  background: #f7f8f4;
+}
+
+.profile-avatar {
+  width: 90px;
+  height: 90px;
+  margin: auto;
+
+  display: grid;
+  place-items: center;
+
+  color: white;
+  background: #176b4d;
+
+  border-radius: 50%;
+
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.journey-card {
+  height: 100%;
+  padding: 1.5rem;
+
+  background: white;
+
+  border: 1px solid #dbe4dd;
+  border-radius: 10px;
+
+  transition: transform 0.2s ease,
+              box-shadow 0.2s ease;
+}
+
+.journey-card:hover {
+  transform: translateY(-4px);
+
+  box-shadow:
+    0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.journey-card span {
+  color: #176b4d;
+
+  font-size: 0.75rem;
+
+  font-weight: bold;
+
+  text-transform: uppercase;
+}
+
+.journey-card h3 {
+  margin: 0.6rem 0;
+}
+
+.journey-card p {
+  margin-bottom: 0;
+
+  color: #64748b;
+}
+
+.journey-card.active {
+  border: 2px solid #176b4d;
+  background: #e5f4ea;
+}
+
+@media (max-width: 600px) {
+
+  .hero-section {
+    padding: 4rem 0;
+  }
+
+  .hero-section h1 {
+    font-size: 2.5rem;
+  }
+
+}
