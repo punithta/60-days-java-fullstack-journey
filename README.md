@@ -25,6 +25,7 @@ I am learning by building projects daily and documenting each step here.
 | 04 | CSS Flexbox | Developer Roadmap Dashboard | ✅ Completed |
 | 05 | CSS Grid | Learning Dashboard | ✅ Completed |
 | 06 | Responsive Design | Responsive Developer Portfolio | ✅ Completed |
+| 07 | Framework + Mini Project | Responsive Java Full-Stack Landing Page | ✅ Completed |
 
 ## Repository Structure
 
