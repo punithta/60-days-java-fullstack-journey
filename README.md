@@ -26,6 +26,10 @@ I am learning by building projects daily and documenting each step here.
 | 05 | CSS Grid | Learning Dashboard | ✅ Completed |
 | 06 | Responsive Design | Responsive Developer Portfolio | ✅ Completed |
 | 07 | Framework + Mini Project | Responsive Java Full-Stack Landing Page | ✅ Completed |
+<<<<<<< HEAD
+=======
+| 08 | CSS Animations & Transitions | Animated Developer Portfolio | ✅ Completed |
+>>>>>>> d162af1 (Day 8: Build animated developer portfolio)
 
 ## Repository Structure
 
