@@ -28,6 +28,7 @@ I am learning by building projects daily and documenting each step here.
 | 07 | Framework + Mini Project | Responsive Java Full-Stack Landing Page | ✅ Completed |
 | 08 | CSS Animations & Transitions | Animated Developer Portfolio | ✅ Completed |
 | 09 | JavaScript Basics | JavaScript Basics Practice | ✅ Completed |
+| 10 | JavaScript Programming | Conditions, Loops and Functions | ✅ Completed |
 
 So your progress is:
 
