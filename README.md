@@ -29,6 +29,7 @@ I am learning by building projects daily and documenting each step here.
 | 08 | CSS Animations & Transitions | Animated Developer Portfolio | ✅ Completed |
 | 09 | JavaScript Basics | JavaScript Basics Practice | ✅ Completed |
 | 10 | JavaScript Programming | Conditions, Loops and Functions | ✅ Completed |
+| 12 | JavaScript Arrays | JavaScript Arrays - Basic Concepts | ✅ Completed |
 
 So your progress is:
 
