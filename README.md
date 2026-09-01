@@ -31,7 +31,7 @@ I am learning by building projects daily and documenting each step here.
 | 10 | JavaScript Programming | Conditions, Loops and Functions | ✅ Completed |
 | 11 | JavaScript Functions | Function declarations, parameters, arguments, return values, default parameters, function expressions, arrow functions and scope | ✅ Completed |
 | 12 | JavaScript Arrays | Arrays, indexing, array methods, loops, sorting, arrays of objects and method chaining | ✅ Completed |
-
+| 13 | JavaScript Objects | Objects, properties, methods, `this`, destructuring, nested objects and object utilities | ✅ Completed |
 
 ## Repository Structure
 
