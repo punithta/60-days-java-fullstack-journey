@@ -17,28 +17,30 @@ I am learning by building projects daily and documenting each step here.
 
 ## Daily Progress
 
-| Day | Topic | Project | Status |
-| --- | --- | --- | --- |
-| 01 | HTML5 Basics | Personal Developer Journey Page | ✅ Completed |
-| 02 | HTML Forms and Tables| Student Registration Form | ✅ Completed |
-| 03 | CSS Basics | Developer Profile Card | ✅ Completed |
-| 04 | CSS Flexbox | Developer Roadmap Dashboard | ✅ Completed |
-| 05 | CSS Grid | Learning Dashboard | ✅ Completed |
-| 06 | Responsive Design | Responsive Developer Portfolio | ✅ Completed |
-| 07 | Framework + Mini Project | Responsive Java Full-Stack Landing Page | ✅ Completed |
-| 08 | CSS Animations & Transitions | Animated Developer Portfolio | ✅ Completed |
-| 09 | JavaScript Basics | JavaScript Basics Practice | ✅ Completed |
-| 10 | JavaScript Programming | Conditions, Loops and Functions | ✅ Completed |
-| 11 | JavaScript Functions | Function declarations, parameters, arguments, return values, default parameters, function expressions, arrow functions and scope | ✅ Completed |
-| 12 | JavaScript Arrays | Arrays, indexing, array methods, loops, sorting, arrays of objects and method chaining | ✅ Completed |
-| 13 | JavaScript Objects | Objects, properties, methods, `this`, destructuring, nested objects and object utilities | ✅ Completed |
+| Day | Topic | Project | Status | 
+| --- | --- | --- | --- | 
+| 01 | [HTML5 Basics](./Day-01-HTML5-Basics) | [Personal Developer Journey Page](./Day-01-HTML5-Basics) | ✅ Completed | 
+| 02 | [HTML Forms and Tables](./Day-02-HTML-Forms-Tables) | [Student Registration Form](./Day-02-HTML-Forms-Tables) | ✅ Completed | 
+| 03 | [CSS Basics](./Day-03-CSS-Basics) | [Developer Profile Card](./Day-03-CSS-Basics) | ✅ Completed | 
+| 04 | [CSS Flexbox](./Day-04-CSS-Flexbox) | [Developer Roadmap Dashboard](./Day-04-CSS-Flexbox) | ✅ Completed | 
+| 05 | [CSS Grid](./Day-05-CSS-Grid) | [Learning Dashboard](./Day-05-CSS-Grid) | ✅ Completed | 
+| 06 | [Responsive Design](./Day-06-Responsive-Design) | [Responsive Developer Portfolio](./Day-06-Responsive-Design) | ✅ Completed | 
+| 07 | [Framework + Mini Project](./Day-07-Framework-Mini-Project) | [Responsive Java Full-Stack Landing Page](./Day-07-Framework-Mini-Project) | ✅ Completed | 
+| 08 | [CSS Animations & Transitions](./Day-08-CSS-Animations) | [Animated Developer Portfolio](./Day-08-CSS-Animations) | ✅ Completed | 
+| 09 | [JavaScript Basics](./Day-09-JavaScript-Basics) | [JavaScript Basics Practice](./Day-09-JavaScript-Basics) | ✅ Completed | 
+| 10 | [JavaScript Programming](./Day-10-JavaScript-Programming) | [Conditions, Loops and Functions](./Day-10-JavaScript-Programming) | ✅ Completed | 
+| 11 | [JavaScript Functions](./Day-11-JavaScript-Functions) | [Function Practice](./Day-11-JavaScript-Functions) | ✅ Completed | 
+| 12 | [JavaScript Arrays](./Day-12-JavaScript-Arrays) | [Array Practice](./Day-12-JavaScript-Arrays) | ✅ Completed | 
+| 13 | [JavaScript Objects](./Day-13-JavaScript-Objects) | [Object Practice](./Day-13-JavaScript-Objects) | ✅ Completed | 
+| 14 | [JavaScript Strings, Numbers & Math](./Day-14-JavaScript-Strings-Numbers-Math) | [Strings, Numbers & Math Practice](./Day-14-JavaScript-Strings-Numbers-Math) | ✅ Completed |
 
 ## Repository Structure
 
 Each day has its own folder containing code and notes.
 
 ```text
-Day-01-HTML5-Basics/
+Each Day 
 ├── index.html
 ├── styles.css
+├── script.js [JavaScript]
 └── README.md
