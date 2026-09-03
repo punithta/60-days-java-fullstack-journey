@@ -33,6 +33,7 @@ I am learning by building projects daily and documenting each step here.
 | 12 | [JavaScript Arrays](./Day-12-JavaScript-Arrays) | [Array Practice](./Day-12-JavaScript-Arrays) | ✅ Completed | 
 | 13 | [JavaScript Objects](./Day-13-JavaScript-Objects) | [Object Practice](./Day-13-JavaScript-Objects) | ✅ Completed | 
 | 14 | [JavaScript Strings, Numbers & Math](./Day-14-JavaScript-Strings-Numbers-Math) | [Strings, Numbers & Math Practice](./Day-14-JavaScript-Strings-Numbers-Math) | ✅ Completed |
+| 15 | [JavaScript Dates & Time](./Day-15-JavaScript-Dates-Time) | Date object, date methods, time methods, date formatting, timestamps, date comparison and date calculations | ✅ Completed |
 
 ## Repository Structure
 
